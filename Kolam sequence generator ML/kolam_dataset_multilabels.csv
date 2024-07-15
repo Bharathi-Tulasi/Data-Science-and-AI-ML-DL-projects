@@ -1,0 +1,161 @@
+input,a,b,c,d
+a,1,1,1,0
+b,1,1,0,1
+c,1,0,1,1
+d,0,1,1,1
+ab,0,1,0,0
+ba,1,0,0,0
+cd,0,0,0,1
+dc,0,0,1,0
+ac,0,0,1,0
+ca,1,0,0,0
+bd,0,0,0,1
+db,0,1,0,0
+bac,0,0,1,0
+acd,0,0,0,1
+dba,1,0,0,0
+cdb,0,1,0,0
+bdc,0,0,1,0
+abd,0,0,0,1
+dca,1,0,0,0
+cab,0,1,0,0
+bdca,1,0,0,0
+abdc,0,0,1,0
+dcab,0,1,0,0
+cabd,0,0,0,1
+acdb,0,1,0,0
+bacd,0,0,0,1
+cdba,1,0,0,0
+dbac,0,0,1,0
+bdca a,1,1,1,0
+abdc c,1,0,1,1
+dcab b,1,1,0,1
+cabd d,0,1,1,1
+acdb b,1,1,0,1
+bacd d,0,1,1,1
+cdba a,1,1,1,0
+dbac c,1,0,1,1
+bdca a a,1,1,1,0
+bdca ab,0,1,0,1
+bdca ac,0,0,1,1
+abdc c c,1,0,1,1
+abdc ca,1,1,0,0
+abdc cd,0,1,0,1
+dcab b b,1,1,0,1
+dcab ba,1,0,1,0
+dcab bd,0,0,1,1
+cabd d d,0,1,1,1
+cabd db,1,1,0,0
+cabd dc,1,0,1,0
+acdb b b,1,1,0,1
+acdb ba,1,0,1,0
+acdb bd,0,0,1,1
+bacd d d,0,1,1,1
+bacd dc,1,0,1,0
+bacd db,1,1,0,0
+cdba a a,1,1,1,0
+cdba ab,0,1,0,1
+cdba ac,0,0,1,1
+dbca a a ,1,1,1,0
+dbca ab,0,1,0,1
+dbca ac,0,0,1,1
+bdca acd,0,1,0,1
+abdc cdb,1,1,0,0
+dcab bac,0,0,1,1
+cabd dba,1,0,1,0
+acdb bdc,1,0,1,0
+bacd dca,1,1,0,0
+cdba abd,0,0,1,1
+dbac cab,0,1,0,1
+bdca acd a,1,1,1,0
+abdc cdb b,1,1,0,1
+dcab bac c,1,0,1,1
+cabd dba a,1,1,1,0
+acdb bdc c,1,0,1,1
+bacd dca a,1,1,1,0
+cdba abd d,0,1,1,1
+dbac cab b,1,1,0,1
+bdca acd a a,1,1,1,0
+bdca acd ab,0,1,0,1
+bdca acd ac,0,0,1,1
+abdc cdb b b,1,1,0,1
+abdc cdb ba,1,0,1,0
+abdc cdb bd,0,0,1,1
+dcab bac c c,1,0,1,1
+dcab bac ca,1,1,0,0
+dcab bac cd,0,1,0,1
+cabd dba a a,1,1,1,0
+cabd dba ab,0,1,0,1
+cabd dba ac,0,0,1,1
+acdb bdc c c,1,0,1,1
+acdb bdc ca,1,1,0,0
+acdb bdc cd,0,1,0,1
+bacd dca a a,1,1,1,0
+bacd dca ab,0,1,0,1
+bacd dca ac,0,0,1,1
+cdba abd d d,0,1,1,1
+cdba abd db,1,1,0,0
+cdba abd dc,1,0,1,0
+dbac cab b b,1,1,0,1
+dbac cab bd,0,0,1,1
+dbac cab ba,1,0,1,0
+bac c c,1,0,1,1
+bac c c d,0,1,1,1
+bac c c d d,0,1,1,1
+bac c c d dcab ,0,1,0,0
+bac c c d dcab ba,1,0,1,0
+bac c c d dcab ba a,1,1,1,0
+bac c c d dcab ba a a,1,1,1,0
+bac c c d dcab ba a acd,0,1,0,1
+dba abd d d,0,1,1,1
+dcab b bdc cdba,1,0,0,0
+cdba a a a acd,0,1,0,1
+bdc cdba a a a acdb b,1,1,0,1
+dbac d dc cdba a a,1,1,1,0
+dc cdba a a abd,0,0,1,1
+abdc c c cdba,1,0,0,0
+cdba ab bacd,0,0,0,1
+bacd d d dcab,0,1,0,0
+cdba ab bacd d d dcab b,1,1,0,1
+bac c cd d d bac,0,0,1,1
+bac c cd d d bac c,1,0,1,1
+dbac ca acdb b b,1,1,0,1
+acdb b ba a acd,0,1,0,1
+acd dcab b b,1,1,0,1
+dcab b bd d dcab,0,1,0,0
+cdba ab b bd d d,0,1,1,1
+b b bd d d c cdba,1,0,0,0
+cdba a a a acd,0,1,0,1
+a a acd d d,0,1,1,1
+d dcab b b,1,1,0,1
+bac c c cab b bd,0,0,1,1
+bac c c cab b bd d dc,1,0,1,0
+d d dca a a acd d,0,1,1,1
+dbac ca acdb,0,1,0,0
+dba a a c c cdba,1,0,0,0
+a ac c cdba ab b,1,1,0,1
+b bd ca acd d d,0,1,1,1
+b bd ca acd,0,1,0,1
+bacd dc c c abd,0,0,1,1
+bac ca ac d d db,1,1,0,0
+bac ca ac d d db bd,0,0,1,1
+bac ca ac,0,0,1,1
+ c cab b bd d,0,1,1,1
+bacd dca a,1,1,1,0
+bacd dca a a acd,0,1,0,1
+bacd dca a a,1,1,1,0
+acdb bd c c c cdb,1,1,0,0
+acdb bd c c,1,0,1,1
+cdba abd d d d,0,1,1,1
+dbac cab b b,1,1,0,1
+dbac c cd,0,1,0,1
+dbac c cdb,1,1,0,0
+dbac c cdba,1,0,0,0
+dbac c cdba a a ,1,1,1,0
+cdba a acdb,1,0,0,0
+dbac c cdba a a a acdb,0,1,0,0
+dbac c cd dc,1,0,1,0
+dbac c c cab b b bac,0,0,1,1
+ dca a a acdb b b bdc,1,0,1,0
+bacd d dbac c cd d d d dba,1,0,1,0
+ dbac c cd d d d dba,1,0,1,0
